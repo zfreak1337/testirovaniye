@@ -1,0 +1,2332 @@
+body {
+
+    background: black;
+    color: white;
+
+}
+
+/*container*/
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*intro*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img__logo {
+    position: absolute;
+    width: 107px;
+    height: 109px;
+    left: 85px;
+    top: 23px;
+}
+
+.user__logo {
+    position: absolute;
+    width: 26px;
+    height: 24.99px;
+    left: 404px;
+    top: 69px;
+}
+
+.logo1 {
+    position: absolute;
+    left: 28.06%;
+    right: 70.14%;
+    top: 0.64%;
+    bottom: 99.13%;
+
+}
+
+.logo2 {
+    position: absolute;
+    left: 58.66%;
+    right: 70.74%;
+    top: -8.0%;
+    bottom: 99.25%;
+
+}
+
+.logo__text {
+    position: absolute;
+    width: 91px;
+    height: 24.75px;
+    left: 200px;
+    top: 45px;
+    color: : #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.login {
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    left: 444px;
+    top: 68px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+
+.login:hover {
+    color: #4e1a52;
+}
+.title {
+    position: absolute;
+    width: 643px;
+    height: 140px;
+    left: 100px;
+    top: 275px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.line1 {
+    position: absolute;
+    width: 139.43px;
+    height: 0px;
+    left: 60px;
+    top: 570px;
+    border: 4px solid #FFFFFF;
+    transform: rotate(120.61deg);
+    background-color: white;
+}
+
+.background__line {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 10px;
+    top: 380px;
+}
+
+.subtitle {
+    position: absolute;
+    width: 380px;
+    height: 81px;
+    left: 205px;
+    top: 544px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.download__text {
+    position: absolute;
+    width: 413px;
+    height: 70px;
+    left: 100px;
+    top: 892px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.phone1 {
+    position: absolute;
+    width: 332.88px;
+    height: 667.8px;
+    left: 823px;
+    top: 50px;
+    z-index: 2;
+}
+
+
+.background__phone1 {
+    position: absolute;
+    width: 662.63px;
+    height: 783.03px;
+    left: 835.35px;
+    top: -400.31px;
+    z-index: 1;
+    background: rgba(250, 0, 255, 0.2);
+    filter: blur(250px);
+    transform: rotate(-105.26deg);
+}
+
+.playmarket1 {
+    position: absolute;
+    width: 184.5px;
+    height: 51.33px;
+    left: 1140.5px;
+    top: 921px;
+}
+
+.appstore1 {
+    position: absolute;
+    width: 163.53px;
+    height: 51.33px;
+    left: 946px;
+    top: 921px;
+
+}
+
+/*information*/
+
+
+/*our_mision_and_vision*/
+.group__contact__us {
+    position: absolute;
+    width: 503px;
+    height: 312px;
+    left: 176px;
+    top: 1131px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 21.3671px;
+}
+
+.title__contact__us {
+    position: absolute;
+    width: 375px;
+    height: 123px;
+    left: 55px;
+    top: 44px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+
+
+}
+
+.email__link {
+    position: absolute;
+    width: 232px;
+    height: 33px;
+    left: 55px;
+    top: 217px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.email__link:hover {
+    color: #4e1a52;
+}
+
+.group__login {
+    position: absolute;
+    width: 503px;
+    height: 312px;
+    left: 760px;
+    top: 1131px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 21.371px;
+}
+
+.title_login {
+    position: absolute;
+    width: 325px;
+    height: 46.22px;
+    left: 54px;
+    top: 85px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.login__link {
+    position: absolute;
+    width: 88.11px;
+    height: 44.78px;
+    left: 54px;
+    top: 170.22px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.login__link:hover {
+    color: #4e1a52;
+}
+
+.title__info {
+    position: absolute;
+    width: 358px;
+    height: 124px;
+    left: 919px;
+    top: 1679px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.background__title__info {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1016px;
+    top: 1650px;
+    z-index: 1;
+
+}
+
+.subtitle__info {
+    position: absolute;
+    width: 315px;
+    height: 175px;
+    left: 919px;
+    top: 1840px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.phone2 {
+    position: absolute;
+    width: 498px;
+    height: 999.06px;
+    left: 0.06px;
+    top: 1520px;
+}
+
+/*Id scanner*/
+
+.background__gradient {
+    position: absolute;
+    width: 1440px;
+    height: 1060px;
+    left: 0px;
+    top: 2470px;
+    background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+    z-index: 2;
+}
+
+.background_id_scanner {
+    position: absolute;
+    width: 1640px;
+    height: 836px;
+    left: 0px;
+    top: 2495px;
+    background: url(../img/background.png) no-repeat;
+    background-size: 1440px 836px;
+
+    z-index: 1;
+}
+
+.iphone3 {
+    position: absolute;
+    width: 332.56px;
+    height: 667.15px;
+    left: 100px;
+    top: 2937px;
+    z-index: 4;
+}
+
+.iphone4 {
+    position: absolute;
+    width: 332.56px;
+    height: 667.15px;
+    left: 482px;
+    top: 2937px;
+    z-index: 4;
+}
+
+.id_scanner_title {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: 943px;
+    top: 3314px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+.id_scanner_subtitle {
+    position: absolute;
+    width: 316px;
+    height: 125px;
+    left: 943px;
+    top: 3420px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+/*Bl toolintegration*/
+
+.tool1 {
+    position: absolute;
+    width: 233.24px;
+    height: 45.35px;
+    left: 754px;
+    top: 3993px;
+}
+
+.tool2 {
+    position: absolute;
+    width: 182.49px;
+    height: 193.03px;
+    left: 1058.36px;
+    top: 3991.49px;
+}
+
+.tool3 {
+    position: absolute;
+    width: 193.85px;
+    height: 117.61px;
+    left: 803.68px;
+    top: 4202.37px;
+}
+
+.tool4 {
+    position: absolute;
+    width: 193.85px;
+    height: 117.61px;
+    left: 876.68px;
+    top: 4101.8px;
+}
+
+.tool5 {
+    position: absolute;
+    width: 252.24px;
+    height: 150.05px;
+    left: 934.26px;
+    top: 3809px;
+}
+
+.tool6 {
+    position: absolute;
+    width: 281.13px;
+    height: 56.21px;
+    left: 1044px;
+    top: 4275px;
+}
+
+.tool7 {
+    position: absolute;
+    width: 192.22px;
+    height: 114.36px;
+    left: 622px;
+    top: 4058.81px;
+}
+
+.bl_tool_title {
+    position: absolute;
+    width: 497px;
+    height: 62px;
+    left: 100px;
+    top: 3858px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.bl_tool_subtitle {
+    position: absolute;
+    width: 395px;
+    height: 119px;
+    left: 101px;
+    top: 3953px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.bl_tool_title_background {
+    position: absolute;
+    width: 426.21px;
+    height: 438.35px;
+    left: -66.86px;
+    top: 3708px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.1;
+    filter: blur(250px);
+    transform: rotate(5.78deg);
+}
+
+/*QR code*/
+
+
+
+.background1 {
+    position: absolute;
+    width: 811px;
+    height: 606px;
+    left: -33px;
+    top: 4554px;
+    background: url(../img/qrcodebackground.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.background2 {
+    position: absolute;
+    width: 733px;
+    height: 617px;
+    left: 789px;
+    top: 4549px;
+    background: url(../img/qrcodebackground2.png);
+    border-radius: 7.97735px 7.97735px 0px 0px;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.nightlive__logo {
+    position: absolute;
+    width: 138.61px;
+    height: 54.24px;
+    left: 1199px;
+    top: 4537.81px;
+    transform: rotate(-12.84deg);
+    z-index: 3;
+}
+
+.background_linear_gradient {
+    position: absolute;
+    width: 1455px;
+    height: 682px;
+    left: -14px;
+    top: 4554px;
+    background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+    z-index: 2;
+}
+
+.qr_code_title {
+    position: absolute;
+    width: 226px;
+    height: 62px;
+    left: 181px;
+    top: 5051px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.qr_code_subtitle {
+    position: absolute;
+    width: 315px;
+    height: 125px;
+    left: 181px;
+    top: 5156px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.phone5 {
+    position: absolute;
+    width: 332.56px;
+    height: 667.15px;
+    left: 638px;
+    top: 4774px;
+    z-index: 3;
+}
+
+.phone6 {
+    position: absolute;
+    width: 332.56px;
+    height: 667.15px;
+    left: 1051px;
+    top: 5115px;
+    z-index: 3;
+}
+
+.phone7 {
+    position: absolute;
+    width: 332.56px;
+    height: 667.15px;
+    left: 563px;
+    top: 5824px;
+    z-index: 2;
+}
+
+.qr_code_appstore {
+    position: absolute;
+    width: 376px;
+    height: 51.33px;
+    left: 182px;
+    top: 5359px;
+}
+
+.qr_code_playmarket {
+    position: absolute;
+    width: 376px;
+    height: 51.33px;
+    left: 382px;
+    top: 5359px;
+}
+
+.phome7_background_gradient {
+    position: absolute;
+    width: 1022.45px;
+    height: 952.07px;
+    left: 213px;
+    top: 5686.78px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.15;
+    filter: blur(311.569px);
+    border-radius: 476.034px;
+    transform: rotate(-0.55deg);
+    z-index: 1;
+}
+
+.notab1 {
+    position: absolute;
+    width: 717.19px;
+    height: 164.06px;
+    left: -10.5px;
+    top: 5932.22px;
+    opacity: 0.5;
+}
+
+.notab2 {
+    position: absolute;
+    width: 717.19px;
+    height: 164.06px;
+    left: 821.5px;
+    top: 5932.22px;
+    opacity: 0.5;
+}
+
+.notab3 {
+    position: absolute;
+    width: 717.19px;
+    height: 164.06px;
+    left: 0.0px;
+    top: 6263.22px;
+    opacity: 0.5;
+}
+
+.notab4 {
+    position: absolute;
+    width: 717.19px;
+    height: 164.06px;
+    left: 970.5px;
+    top: 6219.22px;
+    opacity: 0.5;
+}
+
+.qr_code_arrow {
+    position: absolute;
+    width: 100.29px;
+    height: 30.48px;
+    left: 946.06px;
+    top: 6026.2px;
+}
+
+.scan_qr_code {
+    position: absolute;
+    width: 155px;
+    height: 26px;
+    left: 1025px;
+    top: 6108px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.generate_qr_code {
+    position: absolute;
+    width: 381px;
+    height: 124px;
+    left: 100px;
+    top: 6571px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.qr_code_scanned {
+    position: absolute;
+    width: 292px;
+    height: 50px;
+    left: 1048px;
+    top: 6608px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.ordering__title {
+    position: absolute;
+    width: 421px;
+    height: 124px;
+    left: 859px;
+    top: 6887px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.ordering__subtitle {
+    position: absolute;
+    width: 365px;
+    height: 25px;
+    left: 864px;
+    top: 7054px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.border__tips1 {
+    position: absolute;
+    width: 266.78px;
+    height: 98.81px;
+    left: 786px;
+    top: 7263px;
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 18.2417px;
+    z-index: 2;
+}
+
+.border__tips2 {
+    position: absolute;
+    width: 285px;
+    height: 113px;
+    left: 287px;
+    top: 7418px;
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 18.2417px;
+    z-index: 2;
+}
+
+.border__tips3 {
+    position: absolute;
+    width: 185px;
+    height: 91px;
+    left: 1006px;
+    top: 7698px;
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 18.2417px;
+    z-index: 2;
+}
+
+.border__tips4 {
+    position: absolute;
+    width: 175.58px;
+    height: 65.37px;
+    left: 509px;
+    top: 7789px;
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 18.2417px;
+    z-index: 2;
+}
+
+.title_border_tips1 {
+    position: absolute;
+    width: 222px;
+    height: 54px;
+    left: 22px;
+    top: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8021px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.title_border_tips2 {
+    position: absolute;
+    width: 222px;
+    height: 54px;
+    left: 22px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8021px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.title_border_tips3 {
+    position: absolute;
+    width: 222px;
+    height: 54px;
+    left: 22px;
+    top: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8021px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.title_border_tips4 {
+    position: absolute;
+    width: 222px;
+    height: 54px;
+    left: 22px;
+    top: -25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8021px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.iphone_longscroll {
+    position: absolute;
+    width: 868px;
+    height: 1038.21px;
+    left: 311px;
+    top: 7059px;
+    z-index: 1;
+}
+
+.iphone_longscroll_small {
+    position: absolute;
+    width: 868px;
+    height: 1038.21px;
+    left: 381px;
+    top: 7159px;
+    z-index: 0;
+}
+/*name site*/
+
+.name_site_gradient {
+    position: absolute;
+    width: 1630px;
+    height: 1003px;
+    left: -2px;
+    top: 8077px;
+    background: linear-gradient(360deg, #000000 6.8%, rgba(0, 0, 0, 0) 51.62%, #000000 97.38%);
+    z-index: 2;
+
+}
+
+.phone8 {
+    position: absolute;
+    width: 428.16px;
+    height: 858.94px;
+    left: 290.06px;
+    top: 8374.16px;
+    z-index: 2;
+}
+
+.notab__text {
+    position: absolute;
+    width: 701px;
+    height: 287px;
+    left: -310px;
+    top: 8593px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 210px;
+    line-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+    color: black;
+    text-shadow:
+        -0   -1px 0   #8B8B8B,
+         0   -1px 0   #8B8B8B,
+        -0    1px 0   #8B8B8B,
+         0    1px 0   #8B8B8B,
+        -1px -0   0   #8B8B8B,
+         1px -0   0   #8B8B8B,
+        -1px  0   0   #8B8B8B,
+         1px  0   0   #8B8B8B,
+        -1px -1px 0   #8B8B8B,
+         1px -1px 0   #8B8B8B,
+        -1px  1px 0   #8B8B8B,
+         1px  1px 0   #8B8B8B,
+        -1px -1px 0   #8B8B8B,
+         1px -1px 0   #8B8B8B,
+        -1px  1px 0   #8B8B8B,
+         1px  1px 0   #8B8B8B;
+}
+
+.phone8__screen {
+    position: absolute;
+    width: 675.46px;
+    height: 377.87px;
+    left: 384px;
+    top: 8401.16px;
+    z-index: 3;
+    background: url(../img/screenphone.png);
+}
+
+/*registration form*/
+
+.form_title {
+    position: absolute;
+    width: 337px;
+    height: 62px;
+    left: 551px;
+    top: 9093px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.subtitle_form {
+    position: absolute;
+    width: 580px;
+    height: 50px;
+    left: 430px;
+    top: 9198px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.input_name {
+    position: absolute;
+    width: 818px;
+    height: 83px;
+    left: 311px;
+    top: 9310px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_venue_name {
+    position: absolute;
+    width: 818px;
+    height: 83px;
+    left: 311px;
+    top: 9416px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_city {
+    position: absolute;
+    width: 397px;
+    height: 83px;
+    left: 311px;
+    top: 9522px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_state_city {
+    position: absolute;
+    width: 397px;
+    height: 83px;
+    left: 732px;
+    top: 9522px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_email {
+    position: absolute;
+    width: 818px;
+    height: 83px;
+    left: 311px;
+    top: 9628px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_subject {
+    position: absolute;
+    width: 818px;
+    height: 83px;
+    left: 311px;
+    top: 9734px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_message {
+    position: absolute;
+    width: 818px;
+    height: 199px;
+    left: 311px;
+    top: 9840px;
+    background: #FFFFFF;
+    border: 1px solid #5C5C5C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.input_button {
+    position: absolute;
+    width: 398px;
+    height: 80px;
+    left: 521px;
+    top: 10099px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 167px;
+}
+
+.input_button:hover {
+    background: #4e1a52;
+}
+
+.download_app {
+    position: absolute;
+    width: 300px;
+    height: 33px;
+    left: 585px;
+    top: 10240px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.playmarker3 {
+    position: absolute;
+    width: 292.13px;
+    height: 81.27px;
+    left: 733px;
+    top: 10335.73px;
+}
+
+.appstore3 {
+    position: absolute;
+    width: 258.93px;
+    height: 81.27px;
+    left: 535px;
+    top: 10335.73px;
+}
+
+.text_notab {
+    position: absolute;
+    width: 81.01px;
+    height: 16.15px;
+    left: 99px;
+    top: 10572px;
+}
+
+.notab_contact_us {
+    position: absolute;
+    width: 148px;
+    height: 25px;
+    left: 100px;
+    top: 10593.15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.copyright_notab {
+    position: absolute;
+    width: 148px;
+    height: 25px;
+    left: 100px;
+    top: 10673.15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.terms_to_use {
+    position: absolute;
+    width: 107px;
+    height: 25px;
+    left: 1325px;
+    top: 10567px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.privacy_policy {
+    position: absolute;
+    width: 115px;
+    height: 25px;
+    left: 1325px;
+    top: 10617px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.registration_form_gradient1 {
+    position: absolute;
+    top: 8817px;
+    left: 182px;
+    z-index: 2;
+    transform: rotate(5.78deg);
+}
+
+.registration_form_gradient2 {
+    position: absolute;
+    top: 9511px;
+    left: 1255.38px;
+
+}
+
+.registration_form_gradient3 {
+    position: absolute;
+    top: 10273px;
+    left: 0px;
+}
+
+@media all and (max-width: 425px) {
+
+    /*intro*/
+    .img__logo {
+        position: absolute;
+        width: 51.73px;
+        height: 52.69px;
+        left: 15px;
+        top: 40px;
+    }
+
+    .user__logo {
+        display: none;
+    }
+
+    .logo__text {
+        position: absolute;
+        width: 46.41px;
+        height: 11.96px;
+        left: 110.59px;
+        top: 62.24px;
+    }
+
+    .login {
+        position: absolute;
+        width: 38px;
+        height: 19px;
+        left: 322px;
+        top: 66px;
+    }
+
+    .title {
+        position: absolute;
+        width: 207px;
+        height: 120px;
+        left: 15px;
+        top: 191px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .background__line {
+        position: absolute;
+        width: 74px;
+        height: 74px;
+        left: -77px;
+        top: 217px;
+    }
+
+    .subtitle {
+        position: absolute;
+        width: 280px;
+        height: 88px;
+        left: 15px;
+        top: 355px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .download__text {
+        position: absolute;
+        width: 283px;
+        height: 29px;
+        left: 56px;
+        top: 536px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .phone1 {
+        position: absolute;
+        width: 161px;
+        height: 322.99px;
+        left: 200px;
+        top: -21px;
+    }
+
+    .background__phone1 {
+        position: absolute;
+        width: 363.95px;
+        height: 430.08px;
+        left: 276.51px;
+        top: 174.69px;
+
+        background: rgba(250, 0, 255, 0.5);
+        filter: blur(250px);
+        transform: rotate(-90.69deg)
+    }
+
+    .appstore1 {
+        position: absolute;
+        width: 185px;
+        height: 60px;
+        left: 95px;
+        top: 629px;
+    }
+
+    .playmarket1 {
+        position: absolute;
+        width: 185px;
+        height: 60px;
+        left: 85px;
+        top: 703px;
+    }
+
+    /*information*/
+
+    .group__contact__us {
+        position: absolute;
+        width: 345px;
+        height: 233px;
+        left: 25px;
+        top: 863px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 21.3671px;
+    }
+
+    .title__contact__us {
+        position: absolute;
+        width: 258px;
+        height: 99px;
+        top: 20px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .email__link {
+        position: absolute;
+        width: 174px;
+        height: 25px;
+        top: 180px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+
+    .group__login {
+        position: absolute;
+        width: 345px;
+        height: 167px;
+        left: 25px;
+        top: 1136px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 21.3671px;
+    }
+
+    .title_login {
+        position: absolute;
+        width: 223px;
+        height: 33px;
+        left: 50px;
+        top: 30px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .login__link {
+        position: absolute;
+        width: 48px;
+        height: 25px;
+        left: 50px;
+        top: 100px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+
+    .title__info {
+        position: absolute;
+        width: 287px;
+        height: 29px;
+        left: 15px;
+        top: 1353px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .background__title__info {
+        position: absolute;
+        width: 85px;
+        height: 85px;
+        left: -100px;
+        top: 1260px;
+    }
+
+    .subtitle__info {
+        position: absolute;
+        width: 315px;
+        height: 132px;
+        left: 15px;
+        top: 1406px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+
+    }
+
+    .phone2 {
+        display: none;
+    }
+
+    /*id scanner*/
+
+    .background__gradient {
+        position: absolute;
+        width: 457px;
+        height: 300px;
+        left: -41px;
+        top: 1638px;
+        background: linear-gradient(179.83deg, #000000 -1.85%, rgba(0, 0, 0, 0.67) 11.21%, rgba(0, 0, 0, 0) 54.71%, #000000 83.92%);
+    }
+
+    .background_id_scanner {
+        position: absolute;
+        width: 454px;
+        height: 263px;
+        left: -41px;
+        top: 1640px;
+        background: url(../img/background.png) no-repeat;
+        background-size: 454px 263px;
+    }
+
+    .id_scanner_title {
+        position: absolute;
+        width: 138px;
+        height: 29px;
+        left: 15px;
+        top: 1852px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .id_scanner_subtitle {
+        position: absolute;
+        width: 345px;
+        height: 88px;
+        left: 15px;
+        top: 1925px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .iphone3 {
+        position: absolute;
+        width: 287.08px;
+        height: 575.93px;
+        left: 44px;
+        top: 2093px;
+    }
+
+    .iphone4 {
+        position: absolute;
+        width: 287.08px;
+        height: 575.93px;
+        left: 44px;
+        top: 2803.93px;
+
+    }
+
+    .bl_tool_title {
+        position: absolute;
+        width: 234px;
+        height: 29px;
+        left: 15px;
+        top: 3624px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .bl_tool_subtitle {
+        position: absolute;
+        width: 338px;
+        height: 88px;
+        left: 15px;
+        top: 3677px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .tool1 {
+        position: absolute;
+        width: 109.43px;
+        height: 21.28px;
+        left: 36px;
+        top: 3848px;
+    }
+
+    .tool2 {
+        position: absolute;
+        width: 85.62px;
+        height: 90.56px;
+        left: 269px;
+        top: 3895px;
+    }
+
+    .tool3 {
+        position: absolute;
+        width: 90.95px;
+        height: 55.18px;
+        left: 134px;
+        top: 4091px;
+    }
+
+    .tool4 {
+        position: absolute;
+        width: 90.95px;
+        height: 55.18px;
+        left: 73px;
+        top: 3961px;
+    }
+
+    .tool5 {
+        position: absolute;
+        width: 144.57px;
+        height: 86px;
+        left: -30px;
+        top: 4224px;
+    }
+
+    .tool6 {
+        position: absolute;
+        width: 144.57px;
+        height: 86px;
+        left: 210px;
+        top: 4394px;
+    }
+
+    .tool7 {
+        display: none;
+    }
+
+    /*qr code */
+
+    .background_linear_gradient {
+        position: absolute;
+        width: 416px;
+        height: 335px;
+        left: 0px;
+        top: 4476px;
+
+        background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%);
+    }
+
+    .background1 {
+        position: absolute;
+        width: 416.2px;
+        height: 311px;
+        left: 0px;
+        top: 4476px;
+        background-size: 416px 311px;
+        background-repeat: no-repeat;
+    }
+
+    .qr_code_title {
+        position: absolute;
+        width: 107px;
+        height: 29px;
+        left: 15px;
+        top: 4703px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .qr_code_subtitle {
+        position: absolute;
+        width: 308px;
+        height: 88px;
+        left: 15px;
+        top: 4756px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .qr_code_playmarket {
+        position: absolute;
+        width: 185px;
+        height: 60px;
+        left: 95px;
+        top: 4978px;
+    }
+
+    .qr_code_appstore {
+        position: absolute;
+        width: 185px;
+        height: 60px;
+        left: 103px;
+        top: 4894px;
+    }
+
+    .background2 {
+        position: absolute;
+        width: 352.44px;
+        height: 297px;
+        left: 63px;
+        top: 5072px;
+        background-size: 352px 297px;
+    }
+
+    .nightlive__logo {
+        position: absolute;
+        width: 88.46px;
+        height: 34.62px;
+        left: 33px;
+        top: 5205.67px;
+        transform: rotate(-12.84deg);
+    }
+
+    .phone5 {
+        position: absolute;
+        width: 280.98px;
+        height: 563.68px;
+        left: 47.02px;
+        top: 5278px;
+    }
+
+    .phone6 {
+        position: absolute;
+        width: 281px;
+        height: 563.73px;
+        left: 47px;
+        top: 5991.68px;
+    }
+
+    .generate_qr_code {
+        position: absolute;
+        width: 295px;
+        height: 29px;
+        left: 35px;
+        top: 6786px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .qr_code_scanned {
+        position: absolute;
+        width: 292px;
+        height: 44px;
+        left: 35px;
+        top: 6839px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .phone7 {
+        position: absolute;
+        width: 181.58px;
+        height: 364.28px;
+        left: 50px;
+        top: 7000px;
+    }
+
+    .phome7_background_gradient {
+        position: absolute;
+        width: 506px;
+        height: 585px;
+        left: -10px;
+        top: 7007px;
+        background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+        opacity: 0.15;
+        filter: blur(93.3565px);
+        border-radius: 142.636px;
+        transform: rotate(-0.55deg)
+    }
+
+    .notab1 {
+        position: absolute;
+        width: 177.22px;
+        height: 40.54px;
+        left: -7.03px;
+        top: 7078px;
+        opacity: 0.5;
+    }
+
+    .notab2 {
+        position: absolute;
+        width: 177.22px;
+        height: 40.54px;
+        left: -52px;
+        top: 7359.79px;
+        opacity: 0.5;
+    }
+
+    .notab3 {
+        display: none;
+    }
+
+    .notab3 {
+        display: none;
+    }
+
+    .notab4 {
+        display: none;
+    }
+
+    .qr_code_arrow {
+        position: absolute;
+        width: 100.29px;
+        height: 30.48px;
+        left: 351.37px;
+        top: 7682.83px;
+        transform: rotate(40deg);
+    }
+
+    .scan_qr_code {
+        position: absolute;
+        width: 133px;
+        height: 22px;
+        left: 255px;
+        top: 7762px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .ordering__title {
+        position: absolute;
+        width: 198px;
+        height: 58px;
+        left: 15px;
+        top: 7919px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+
+        color: #FFFFFF;
+    }
+
+    .ordering__subtitle {
+        position: absolute;
+        width: 324px;
+        height: 22px;
+        left: 15px;
+        top: 8001px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .border__tips1 {
+        position: absolute;
+        width: 165px;
+        height: 57px;
+        left: 39px;
+        top: 8098px;
+        background: #000000;
+        border: 0.76007px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .title_border_tips1 {
+        position: absolute;
+        width: 136px;
+        height: 32px;
+        left: 15px;
+        top: 1px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .border__tips2 {
+        position: absolute;
+        width: 171px;
+        height: 62px;
+        left: 189px;
+        top: 8187px;
+        background: #000000;
+        border: 0.76007px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .title_border_tips2 {
+        position: absolute;
+        width: 136px;
+        height: 32px;
+        left: 15px;
+        top: 1px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .border__tips3 {
+        position: absolute;
+        width: 122px;
+        height: 58px;
+        left: 238px;
+        top: 8592px;
+        background: #000000;
+        border: 0.76007px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .title_border_tips3 {
+        position: absolute;
+        width: 85px;
+        height: 16px;
+        left: 20px;
+        top: 17px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .border__tips4{
+        position: absolute;
+        width: 107px;
+        height: 43px;
+        left: 30px;
+        top: 8509px;
+        background: #000000;
+        border: 0.76007px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .title_border_tips4 {
+        position: absolute;
+        width: 77px;
+        height: 16px;
+        left: 15px;
+        top: 1px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .name_site {
+        display: none;
+    }
+
+    .iphone_longscroll {
+        display: none;
+    }
+
+    .iphone_longscroll_small {
+        position: absolute;
+        width: 360px;
+        height: 430px;
+        left: -7px;
+        top: 8168px;
+        z-index: 2;
+    }
+
+    /*registration form*/
+
+    .form_title {
+        position: absolute;
+        width: 159px;
+        height: 29px;
+        left: 108px;
+        top: 8745px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+    }
+
+    .subtitle_form {
+        position: absolute;
+        width: 323px;
+        height: 66px;
+        left: 26px;
+        top: 8808px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .registration_form_gradient1 {
+        top: 8508px;
+        left: -430px;
+    }
+
+    .input_name {
+        position: absolute;
+        width: 345px;
+        height: 57px;
+        left: 15px;
+        top: 8913px;
+        background: #FFFFFF;
+        border: 1px solid #5C5C5C;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .input_venue_name {
+        position: absolute;
+        width: 345px;
+        height: 57px;
+        left: 15px;
+        top: 8986px;
+        background: #FFFFFF;
+        border: 1px solid #5C5C5C;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .input_city {
+        position: absolute;
+        width: 345px;
+        height: 57px;
+        left: 15px;
+        top: 9059px;
+        background: #FFFFFF;
+        border: 1px solid #5C5C5C;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .input_state_city {
+        position: absolute;
+        width: 345px;
+        height: 57px;
+        left: 15px;
+        top: 9132px;
+        background: #FFFFFF;
+        border: 1px solid #5C5C5C;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .input_email {
+        position: absolute;
+        width: 345px;
+        height: 57px;
+        left: 15px;
+        top: 9205px;
+        background: #FFFFFF;
+        border: 1px solid #5C5C5C;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .input_subject {
+        position: absolute;
+        width: 345px;
+        height: 57px;
+        left: 15px;
+        top: 9278px;
+        background: #FFFFFF;
+        border: 1px solid #5C5C5C;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .input_message {
+        position: absolute;
+        width: 345px;
+        height: 140px;
+        left: 15px;
+        top: 9351px;
+        background: #FFFFFF;
+        border: 2px solid #5C5C5C;
+        border-radius: 10px;
+    }
+
+    .input_button {
+        position: absolute;
+        width: 345px;
+        height: 80px;
+        left: 15px;
+        top: 9531px;
+        padding-left: 140px;
+    }
+
+    .download_app {
+        position: absolute;
+        width: 279px;
+        height: 33px;
+        left: 53px;
+        top: 9685px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .playmarker3 {
+        position: absolute;
+        width: 185px;
+        height: 60px;
+        left: 95px;
+        top: 9847px;
+    }
+
+    .appstore3 {
+        position: absolute;
+        width: 185px;
+        height: 60px;
+        left: 104px;
+        top: 9763px;
+    }
+
+    .terms_to_use {
+        position: absolute;
+        width: 107px;
+        height: 25px;
+        left: 134px;
+        top: 9971px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+    .privacy_policy {
+        position: absolute;
+        width: 115px;
+        height: 25px;
+        left: 130px;
+        top: 10010px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+    .text_notab {
+        position: absolute;
+        width: 70.99px;
+        height: 14.16px;
+        left: 152px;
+        top: 10103px;
+    }
+
+    .notab_contact_us {
+        position: absolute;
+        width: 219px;
+        height: 19px;
+        left: 93px;
+        top: 10133px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    .copyright_notab {
+        position: absolute;
+        width: 116px;
+        height: 19px;
+        left: 130px;
+        top: 10163px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    .registration_form_gradient2 {
+        display: none;
+    }
+
+    .registration_form_gradient3 {
+        display: none;
+    }
+}
+
+
+
+
